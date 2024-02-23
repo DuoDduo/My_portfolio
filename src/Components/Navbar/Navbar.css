@@ -1,0 +1,108 @@
+/* .nav{
+    position: fixed;
+    top: 2rem;
+    left: 8rem;
+    right: 8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    margin: 1rem;
+    padding: 1.3rem 2rem;
+    background: rgba(43, 30, 48, 0.2);
+    -webkit-backdrop-filter: blur(12px);
+    -moz-backdrop-filter: blur(12px);
+    -o-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+
+   
+} */
+/* .nav::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 2rem;
+    animation: pulse 2s infinite ease-in-out;
+    padding: 0.1rem; 
+    background: linear-gradient(10deg, rgba(13, 154, 108, 0.8), rgba(166, 5, 157, 0.8));
+    -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+     -webkit-mask-composite: xor;
+    mask-composite: exclude; 
+    -webkit-mask-composite: exclude;
+    mask-composite: exclude;
+    
+  } */
+/* .logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap:1rem;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+.logo h2{
+    font-weight: 900;
+    font-size: 1.6rem;
+}
+
+ul.nav-menu{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    flex-direction: row; 
+    padding: 1rem;
+    list-style: none;
+    gap: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+
+ ul li a{
+   text-decoration: none;
+   color: white;
+   cursor: pointer;
+  
+} */
+
+/* .background{
+   color:  rgba(43, 30, 48, 0.2)
+} */
+
+.nav{
+    position: fixed;
+    background: rgba(43, 30, 48, 0.1);
+    -webkit-backdrop-filter: blur(12px);
+    -moz-backdrop-filter: blur(12px);
+    -o-backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    z-index: 100000000;
+
+
+
+   
+} 
+ .nav::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 2rem;
+    animation: pulse 2s infinite ease-in-out;
+    padding: 0.1rem; 
+    background: linear-gradient(15deg, rgba(13, 154, 108, 0.7), rgba(166, 5, 157, 0.7));
+    
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+     -webkit-mask-composite: xor;
+    mask-composite: exclude; 
+    -webkit-mask-composite: exclude;
+    mask-composite: exclude; 
+  } 
+
