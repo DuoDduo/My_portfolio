@@ -70,7 +70,7 @@ const Techstack = ()=>{
       ];
     
       return (
-        <div className="p-4 md:p-8 lg:p-16 mx-[2vw]">
+        <div className="p-4 md:p-8 lg:p-16 mx-20">
         <h2 className="text-[1rem] sm:text-[2rem] md:text-[3rem] font-bold">
          TechStack
         </h2>

@@ -8,6 +8,7 @@
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
     font-family: inherit;
+    border-radius: 1.5rem;
 
 
    
@@ -16,7 +17,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     animation: pulse 2s infinite ease-in-out;
     padding: 0.1rem; 
     background: linear-gradient(-25deg, rgba(13, 154, 108, 0.7), rgba(166, 5, 157, 0.7));

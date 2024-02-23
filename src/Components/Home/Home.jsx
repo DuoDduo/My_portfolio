@@ -1,11 +1,11 @@
 
 import "./Home.css";
-import { CloudArrowDown,FilePdf } from "@phosphor-icons/react";
+import { CloudArrowDown} from "@phosphor-icons/react";
 
 
 const Home = ()=>{
   return (
-    <div className="home p-12 mx-[7vw] md:mt-[15%] md:mb-12">
+    <div className="home p-10 mx-20 my-[15%] top-[20%]">
    
     <div className="flex flex-col sm:flex-row items-center justify-between ">
      

@@ -82,6 +82,7 @@ ul.nav-menu{
     -moz-backdrop-filter: blur(12px);
     -o-backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
+    border-radius: 1.5rem;
     backdrop-filter: blur(12px);
     z-index: 100000000;
 
@@ -93,7 +94,7 @@ ul.nav-menu{
     content: "";
     position: absolute;
     inset: 0;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     animation: pulse 2s infinite ease-in-out;
     padding: 0.1rem; 
     background: linear-gradient(15deg, rgba(13, 154, 108, 0.7), rgba(166, 5, 157, 0.7));

@@ -2,7 +2,7 @@ import { ArrowCircleRight} from "@phosphor-icons/react";
 
 const About = () => {
   return (
-    <div className="">
+    <div className=" mx-20">
       <div className="mx-[7vw]">
         <h1 className="md:text-[3.5rem] font-bold">About Me</h1>
         <h1 className="color text-[#808080] mb-4">
